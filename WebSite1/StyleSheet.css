@@ -1,0 +1,153 @@
+﻿body {
+    background-image:url(6741.jpg);
+    background-attachment:fixed;}
+
+* { padding:0px;
+    list-style-type:none;
+    margin:0px;}
+
+a { text-decoration:none;}
+
+.paylas{  margin:auto;
+		border-radius:10px;
+        background-color:#d7d7d7;
+		border:2px #333333 solid;
+		width:45%;
+		height:450px;
+		box-shadow:#333333 0px 0px 5px 1px;
+		margin-top:20px;}
+
+.post{  margin:auto;
+		border-radius:10px;
+        background-color:#d7d7d7;
+		border:2px #333333 solid;
+		width:45%;
+		height:600px;
+		box-shadow:#333333 0px 0px 5px 1px;
+		margin-top:20px;}
+		
+.logo { margin:auto;
+		width:101%;
+		height:105px;
+		background-color:#FFF;
+		position:fixed;
+		z-index:10;
+		box-shadow:#333 0px 3px 7px 1px;
+        top: 0px;
+        left: -3px;}
+
+.logoalt {width:100%;
+		 height:105px;
+		 background-color:#FFF;}
+			
+.logobir { float:left;
+           height:93px;
+	       width:30%;}
+
+.k {position:fixed;
+    top:-55px;
+    left:-82px;
+    width:280px;
+    height:280px;
+    background-color:#5de8fb;
+    border:solid #000000 7px;
+    border-radius:200px;
+	box-shadow:#333 0px 1px 15px 1px;}
+
+.logobir img {
+    width:280px;
+    height:280px;}
+
+.k:hover {
+    transform: rotate(2.0);
+    box-shadow: #333 0px 5px 40px 1px;
+    transition: ease-in-out 0.2s;}
+
+.logoiki {float:left;
+          height:93px;
+	      width:30%;
+}
+.logoüc { float:right;
+          height:93px;
+	      width:40%;}
+
+.logoüc img {
+	width:36px;
+	height:36px;
+	float:left;
+    padding:2px;
+	margin-left:30px;
+    border-radius:50px;
+	margin-top:35px;}
+
+.logoüc img:hover{
+    background-color:#5de8fb;
+        box-shadow:#5de8fb 0px 0px 10px 3px;
+        -webkit-transition:all ease-in-out 0.2s;}
+
+.altmenü{
+    position:absolute;
+    background-color:#d7d7d7;
+    top:75px;
+    right:380px;
+    display:none;
+    border:1px solid #000000;
+}
+.altmenü li {
+        height:12%;
+        padding:3px;
+        margin-top:11.2%;
+        -webkit-transition:all ease-in-out 0.2s;
+        color: #5de8fb;
+    }
+.altmenü li:last-child {
+        padding:7px;
+        -webkit-transition:all ease-in-out 0.2s;
+        color: #5de8fb;
+    }
+
+.logoüc li:hover .altmenü{
+    width:120px;
+    height:150px;
+    display:block;}
+.altmenü li:hover{
+    background-color:#5de8fb;
+    color:#000000;
+
+}
+.altmenü li:hover a{
+    color:#000000;
+
+}
+
+
+.arksağ {width:17%;
+		 height:600px;
+		 position:fixed;
+		 right:-10px;
+	 	 top:85px;
+	 	 border-radius:10px;
+	 	 z-index:9;
+         background-color:#FFF;
+	 	 box-shadow:#333 -2px 3px 7px 1px;}
+
+.ara {  width:50%;
+        height:38%;
+        border:#5de8fb 1px solid;
+        margin-top:5%;
+        margin-left:30%;}
+		
+.arama {width:78%;
+        margin-left:2%;
+		height:82%;
+		float:left;
+        border:rgba(0, 0, 0, 0.00) solid;
+        border-right:solid #000000 1px;}
+
+.arabuton:hover {border:solid #000000 1px;}
+	
+.arabuton { width:18.6%;
+			height:100%;
+            border:rgba(0, 0, 0, 0.00) solid;
+            background-color:rgba(0, 0, 0, 0.00);}
+
